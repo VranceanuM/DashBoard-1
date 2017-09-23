@@ -1,12 +1,12 @@
 {
-  "name": "Dashboard#1",
+  "name": "bs4starter",
   "version": "1.0.0",
-  "description": "Dashboard",
+  "description": "Bootstrap 4 starter workflow",
   "main": "index.js",
   "scripts": {
     "start": "gulp"
   },
-  "author": "MarkDev",
+  "author": "Brad Traversy",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "4.0.0-beta",
