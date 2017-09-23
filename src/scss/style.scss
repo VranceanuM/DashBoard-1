@@ -1,0 +1,49 @@
+// Main Sass File
+@import "variables";
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background:$lightGrey;
+}
+#sideMenu{
+  background: $purpleLight;
+  width: 280px;
+  position: absolute;
+  top:0;
+  bottom:0;
+   nav{
+     padding-top:100px;
+     a{
+       display: block;
+       color: white;
+       text-decoration: none;
+       padding: 15px 20px;
+       font-weight: 300;
+       transition: all 0.5s ease-in-out;
+       &.active{
+         background: $purpleDark;
+         border-right: 4px solid $neonGreen;
+         border-left: 4px solid $neonBlue;
+         padding: 15px 20px 15px 25px;
+         .fa{
+           color:$neonBlue;
+         }
+       }
+      .fa {
+        color:$darkGrey;
+        font-size:1.4rem;
+        margin-right: 10px;
+      }
+      &:hover{
+        background:$purpleDark;
+        border-right: 4px solid $neonGreen;
+        border-left: 4px solid $neonBlue;
+         .fa{
+           color: $neonBlue;
+         }
+      }
+     }
+   }
+}
