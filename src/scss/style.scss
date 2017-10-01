@@ -47,3 +47,65 @@ body{
      }
    }
 }
+header{
+margin-left: 280px;
+padding:20px;
+background: white;
+.search-area{
+  display: inline-block;
+}
+  .fa-search {
+    color:$lightGrey;
+ }
+
+ input{
+   background: transparent;
+   border: none;
+   color:$neonGreen;
+   padding: 5px;
+   font-weight: 200px;
+ }
+ .user-field{
+  display: inline-block;
+  float:right;
+   a{
+     display: inline-block;
+     margin-right: 10px;
+     padding: 5px;
+     color:$purpleDark;
+     vertical-align: top;
+
+     &.notification{
+       position: relative;
+      }
+      .circle{
+        background:$neonGreen;
+        height: 14px;
+        width: 14px;
+        display: inline-block;
+        border-radius: 50%;
+        font-size: 10px;
+        color: white;
+        text-align: center;
+      }
+      &.add{
+        font-weight: 300;
+      }
+      .fa-caret-down{
+        position: relative;
+        top:-10px;
+      }
+      .user-img{
+          background: url(https://s3.amazonaws.com/uifaces/faces/twitter/kerem/128.jpg) no-repeat center center ; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          width: 30px;
+          height: 30px;
+          display: inline-block;
+          border-radius: 50%;
+        }
+      }
+   }
+}
