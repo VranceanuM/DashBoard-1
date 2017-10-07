@@ -1,0 +1,146 @@
+#content-area{
+    margin-left: 280px;
+    padding: 5px;
+}
+.cards-users{
+    margin-left: 20px;
+}
+.card-user{
+    background: #fff;
+    
+}
+.img-user{
+    position: relative;
+    top:10px;
+}
+.user-name{
+    
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: $neonGreen;
+    text-align: center;
+    display: block;  
+    margin-top: 10px;  
+
+}
+.education{
+    padding: 10px;
+    
+}
+.schools{
+    padding: 15px;
+}
+
+.user-title{
+    text-align: center;
+    color: $purpleDark;
+    display: block; 
+}
+.card2-user{
+    margin-left:50px;
+    background: #fff;
+}
+.img-user{
+    background: url(https://s3.amazonaws.com/uifaces/faces/twitter/kerem/128.jpg) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top:10px;
+}
+.title-bord{
+    padding: 15px;
+    margin-left: 280px;
+    h6{
+        color: $neonGreen;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        font-weight: 400;
+        font-size:25px;
+    }
+}
+.education-school{
+    margin-bottom: 30px;
+}
+.card2-user h6{
+    font-size:1.0rem;
+    padding: 5px;
+    color: $purpleLight;
+    
+
+}
+.card2-user p{
+    font-size:1.7rem;
+    border-left: solid 3px $neonGreen;
+    position: relative;
+    left:-15px;
+    padding: 0 30px;
+ }
+ .job-type{
+     color: white;
+     font-size: .7rem;
+     background:#FF6600;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     text-align: center;
+     vertical-align: middle;
+     padding: 7px;
+
+ }
+ .location{
+     font-size:1.2rem;
+     font-weight: 300;
+ }
+ .position{
+    font-size:1.2rem;
+    font-weight: 600;
+ }
+ .time{
+     color: $neonGreen;
+ }
+ .img-user2{
+    background: url(https://designcontest-com-designcontest.netdna-ssl.com/data/landing/505x380xed7b68530d369601.jpg.pagespeed.ic.edRhEFirQa.jpg) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+ }
+ .search-area .fa:hover{
+    color: $neonBlue;
+ }
+ .table{
+     margin-top: 60px;
+ }
+  table{
+      width:100%;
+      th{
+        color: $purpleDark;
+        text-transform: uppercase;
+        font-weight: 500;
+
+      }
+  }
+  thead{
+    background: #C7BFBF;
+    padding:15px 15px;
+}
+tbody{
+    background: #fff;
+}
+.logo{
+    color: white;
+    font-size: .7rem;
+    background:#43DD43;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 7px; 
+}

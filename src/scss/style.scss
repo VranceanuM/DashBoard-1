@@ -1,18 +1,27 @@
 // Main Sass File
 @import "variables";
-
+@import "content-area";
+/* Side menu & Header */
 *{
   box-sizing: border-box;
 }
 body{
   background:$lightGrey;
+  overflow-x: hidden;
+  a:hover{
+    outline: 0;
+    text-decoration: none;
+  }
 }
+
 #sideMenu{
   background: $purpleLight;
   width: 280px;
-  position: absolute;
-  top:0;
-  bottom:0;
+  height: 100vh;
+  position: fixed;
+  //top:0;
+  //bottom:0;
+
    nav{
      padding-top:100px;
      a{
@@ -48,22 +57,30 @@ body{
    }
 }
 header{
-margin-left: 280px;
+width:100vw;
+padding-left:280px;
 padding:20px;
 background: white;
 .search-area{
+  padding-left: 280px;
   display: inline-block;
+  width: 50%;
 }
   .fa-search {
     color:$lightGrey;
  }
 
- input{
+ .input{
    background: transparent;
    border: none;
    color:$neonGreen;
    padding: 5px;
    font-weight: 200px;
+   transition:all .5s ease-in-out;
+   width: 80%;
+   &:hover{
+    background: $darkGrey;
+  } 
  }
  .user-field{
   display: inline-block;
@@ -109,3 +126,9 @@ background: white;
       }
    }
 }
+input:focus,
+textarea:focus{
+  outline: none;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
